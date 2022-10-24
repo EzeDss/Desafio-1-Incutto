@@ -7,13 +7,13 @@ class usuario {
     }
     getFullnombre (){
 
-        return console.log(`Hola mi nombre es ${this.nombre} ${this.apellido}`)
+        console.log(`Hola mi nombre es ${this.nombre} ${this.apellido}`)
     }
     addmascota (nombre_mascota){
         this.mascota.push (nombre_mascota);
     }
     CountMascotas (){
-        return console.log(`La cantidad de mascotas que tiene es: ${this.mascota.length}`)
+        console.log(`La cantidad de mascotas que tiene es: ${this.mascota.length}`)
     }
     addLibro(){
         this.libros.push({
@@ -22,7 +22,7 @@ class usuario {
         });
     }
     getNombreslibros(){
-        return console.log(this.libros.map((libros) => libros.Nombre))
+        console.log(this.libros.map((libros) => libros.Nombre))
     }
 }
 const Usuario1 = new usuario('Ezequiel', 'Incutto',[
