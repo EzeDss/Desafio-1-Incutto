@@ -25,7 +25,7 @@ class usuario {
         console.log(this.libros.map((libros) => libros.Nombre))
     }
 }
-const Usuario1 = new usuario('Ezequiel', 'Incutto',[
+let Usuario1 = new usuario('Ezequiel', 'Incutto',[
     {
         Nombre: 'Harry Potter',
         Autor: 'J. K. Rowling',
